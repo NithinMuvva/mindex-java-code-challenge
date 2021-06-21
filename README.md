@@ -19,7 +19,7 @@ The application may be executed by running `gradlew bootRun`.
 
 ## Task 2
 
- CREATE
+* CREATE
     * HTTP Method: POST 
     * URL: localhost:8080/compensation
     * PAYLOAD: Compensation
