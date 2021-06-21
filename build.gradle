@@ -27,5 +27,7 @@ dependencies {
 	implementation ('org.springframework.boot:spring-boot-starter-web')
 	implementation ('org.springframework.boot:spring-boot-starter-data-mongodb')
 	testImplementation ('org.springframework.boot:spring-boot-starter-test')
+	implementation (group: 'javax.persistence', name: 'javax.persistence-api', version: '2.2')
+	implementation (group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version: '2.9.4')
 	implementation (group: 'de.bwaldvogel', name: 'mongo-java-server', version: '1.25.0')
 }

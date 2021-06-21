@@ -46,7 +46,7 @@ public class ReportingStructureServiceImpl implements ReportingStructureService{
 
 	/*
 	 *  Calculates total number of reports for given employeeID using recursion
-	 *  @param employee the "root" employee 
+	 *  @param employee and initial number of reports 
      *  @return total number of reports under the employee
 	 * 
 	 */
