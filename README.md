@@ -24,26 +24,26 @@ The application may be executed by running `gradlew bootRun`.
     * URL: localhost:8080/compensation
     * PAYLOAD: Compensation
 	* example : 
-		Salary is Double type and effectiveDate is LocalDate with format "yyyy-MM-dd"
-		{
-		  "employee": {
-			"employeeId": "16a596ae-edd3-4847-99fe-c4518e82c86f",
-			  "firstName": "John",
-				"lastName": "Lennon",
-				  "position": "Development Manager",
-					"department": "Engineering",
-					  "directReports": [
-						{
-						  "employeeId": "b7839309-3348-463b-a7e3-5de1c168beb3"
-						},
-						{
-						  "employeeId": "03aa1462-ffa9-4978-901b-7c001562cf6f"
-						}
-					  ]
-		  },
-		  "salary": "75656.90",
-		  "effectiveDate": "2021-11-21"
-		}
+	*	Salary is Double type and effectiveDate is LocalDate with format "yyyy-MM-dd"
+	*	{
+	*	  "employee": {
+	*		"employeeId": "16a596ae-edd3-4847-99fe-c4518e82c86f",
+	*		  "firstName": "John",
+	*			"lastName": "Lennon",
+	*			  "position": "Development Manager",
+	*				"department": "Engineering",
+	*				  "directReports": [
+	*					{
+	*					  "employeeId": "b7839309-3348-463b-a7e3-5de1c168beb3"
+	*					},
+	*					{
+	*					  "employeeId": "03aa1462-ffa9-4978-901b-7c001562cf6f"
+	*					}
+	*				  ]
+	*	  },
+	*	  "salary": "75656.90",
+	*	  "effectiveDate": "2021-11-21"
+	*	}
     * RESPONSE: Compensation
 * READ
     * HTTP Method: GET 
