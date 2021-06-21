@@ -32,7 +32,6 @@ public class BaseExceptionHandler {
         return new ResponseEntity(nfe.getMessage(),nfe.getStatus());
     }
     
-    @SuppressWarnings("unchecked")
 	@ExceptionHandler({Exception.class, RuntimeException.class})
     private ResponseEntity<?> handleException(Throwable e, HttpServletRequest httpReq, HttpServletResponse httpRes) {
     	LOG.error(e.getMessage());
